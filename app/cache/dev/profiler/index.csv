@@ -2,3 +2,14 @@
 960c5a,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Metadata,1399519172,
 96f3ae,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Metadata,1399519191,
 ca3c9d,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Metadata,1399519207,
+dcb4a3,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Metadata,1399522145,
+f9eb37,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Doctors,1399522152,229a8c
+229a8c,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Doctors,1399522152,
+bac642,::1,GET,http://localhost/ClinicSoft/web/app_dev.php/api/Rooms,1399522172,
+74be81,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/Metadata,1399522268,8789f0
+8789f0,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/Metadata,1399522268,
+209d71,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/api/Metadata,1399522275,
+b6ff39,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/api/Rooms,1399522279,
+717fe5,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/api/RoomTypes,1399522302,592ffb
+592ffb,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/api/RoomTypes,1399522302,
+8f190a,192.168.1.6,GET,http://192.168.1.12/ClinicSoft/web/app_dev.php/api/Rooms?%24filter=id%20gt%201,1399522332,
