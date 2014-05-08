@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Patient\PatientManagementBundle\Entity\TestType">
+    <id name="id" type="integer" column="id">
+      <generator strategy="AUTO"/>
+    </id>
+    <field name="price" type="integer" column="price"/>
+    <field name="type" type="string" column="type" length="255"/>
+    <one-to-many field="tests" target-entity="Test" mapped-by="testtype" />
+  </entity>
+</doctrine-mapping>

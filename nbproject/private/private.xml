@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Entity/Consultant.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Resources/config/doctrine/Administrator.orm.xml</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/composer.json</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/vendor/adrotec/breeze.server.php/src/BreezeJsBundle/Controller/BreezeJsController.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Entity/Employee.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/app/AppKernel.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Resources/config/doctrine/Employee.orm.xml</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Controller/ApiController.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Resources/config/doctrine/Doctor.orm.xml</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Entity/Doctor.php</file>
+            <file>file:/C:/xampp/htdocs/ClinicSoft/src/Patient/PatientManagementBundle/Resources/config/doctrine/Consultant.orm.xml</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Patient\PatientManagementBundle\Entity\Doctor" inheritance-type="SINGLE_TABLE">
+    
+    <field name="doctorType" type="integer" column="doctor_type"/>
+    <one-to-many field="appointments" target-entity="Appointment" mapped-by="doctor" />
+    
+<!--     <discriminator-column name="type" type="string" />
+        <discriminator-map>
+        <discriminator-mapping value="consultant" class="Consultant" />
+        </discriminator-map>-->
+  </entity>
+</doctrine-mapping>

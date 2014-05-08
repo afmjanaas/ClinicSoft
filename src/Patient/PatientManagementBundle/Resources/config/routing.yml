@@ -1,0 +1,7 @@
+patient_management_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: PatientManagementBundle:Default:index }
+
+patient_management_api:
+    pattern:  /api/{route}
+    defaults: { _controller: PatientManagementBundle:Api:api }

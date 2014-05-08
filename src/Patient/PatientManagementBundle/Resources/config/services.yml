@@ -1,0 +1,7 @@
+parameters:
+#    patient_management.example.class: Patient\PatientManagementBundle\Example
+
+services:
+#    patient_management.example:
+#        class: %patient_management.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

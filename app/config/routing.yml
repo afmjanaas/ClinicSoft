@@ -1,0 +1,4 @@
+patient_management:
+    resource: "@PatientManagementBundle/Resources/config/routing.yml"
+    prefix:   /
+

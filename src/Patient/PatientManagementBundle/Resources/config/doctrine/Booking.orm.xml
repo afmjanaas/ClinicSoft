@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Patient\PatientManagementBundle\Entity\Booking">
+    <id name="id" type="integer" column="id">
+      <generator strategy="AUTO"/>
+    </id>
+    <field name="roomNo" type="string" column="room_no" length="255"/>
+    <field name="nic" type="string" column="nic" length="255"/>
+    <field name="startDate" type="date" column="start_date"/>
+    <field name="endDate" type="date" column="end_date"/>
+    <one-to-one field="room" target-entity="Room" inversed-by="booking">
+            <join-column name="room_id" referenced-column-name="id" />
+        </one-to-one>
+    <one-to-one field="patient" target-entity="Patient" mapped-by="booking" />
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Patient\PatientManagementBundle\Entity\Patient">
+    <id name="id" type="integer" column="id">
+      <generator strategy="AUTO"/>
+    </id>
+    <field name="initial" type="string" column="initial" length="255"/>
+    <field name="firstName" type="string" column="first_name" length="255"/>
+    <field name="lastName" type="string" column="last_name" length="255"/>
+    <field name="address" type="string" column="address" length="255"/>
+    <field name="email" type="string" column="email" length="255"/>
+    <field name="telephone" type="integer" column="telephone"/>
+      <one-to-one field="booking" target-entity="Booking" inversed-by="patient">
+            <join-column name="booking_id" referenced-column-name="id" />
+        </one-to-one>
+    <many-to-one field="opd" target-entity="OPD" inversed-by="patient">
+            <join-column name="opd_id" referenced-column-name="id" />
+        </many-to-one>
+    <one-to-many field="appointments" target-entity="Appointment" mapped-by="patient" />
+    <many-to-one field="patientTest" target-entity="PatientTest" inversed-by="patient">
+            <join-column name="testpatient_id" referenced-column-name="id" />
+        </many-to-one>
+  </entity>
+</doctrine-mapping>
